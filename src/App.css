@@ -1,0 +1,172 @@
+body {
+  background-color: gray;
+}
+
+.createWrapper {
+  padding-top: 5%;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+header {
+  font-family: "ExocetLight";
+}
+
+.nav {
+  font-family: "ExocetLight";
+}
+
+
+@font-face {
+  font-family: "ExocetLight";
+  src: url("ExocetLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Formata";
+  src: url("Formata-Regular.woff") format("woff");
+}
+
+.about{
+  font-family: 'Formata';
+  font-weight: normal;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+.nav {
+  
+  
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  color: gainsboro;
+  font-size: 32pt;
+  
+}
+
+.nav li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#mImage {
+  width: auto;
+  height: 100%;
+}
+
+fieldset {
+  border: 0;
+  margin-right: 3%;
+  margin-left: 0;
+}
+
+#creationForm {
+  margin-left: 1%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+label {
+  color: gainsboro;
+  font-size: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Formata';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.monsterIndexWrapper {
+  padding-top: 5%;
+}
+
+.templatePageWrapper {
+  margin-top: 10%;
+}
+
+legend {
+  font-size: 0;
+}
+
+.indexList {
+  font-size: 1.5rem;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: whitesmoke;
+}
+
+a:visited {
+  color: rgb(36, 36, 36);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+}
+
+#createButton {
+  background-color: hsl(234, 82%, 35%);
+  color: white;
+  padding: .5em 1em;
+  border-radius: .3em;
+  border: none;
+  cursor: pointer;
+  height: 3rem;
+  width: 25%;
+}
+
+
+
+#createButton:hover {
+  background-color: hsl(234, 81%, 22%);
+}
+
+
+.blue {
+  color: #000080;
+}
+
+#monName {
+  color: #000080;
+}
+
+.displayWrapper {
+  font-size: 1.5rem;
+}
+
